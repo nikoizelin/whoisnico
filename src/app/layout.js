@@ -11,9 +11,9 @@ import Footer from "./footer.js";
 
 
 const metadata = {
-  title: "Nico Iselin",
-  description: "This is a portfolio website for Nico Iselin.",
-  favicon: "/favicon_whoisnico.ico"
+  title: "nico iselin",
+  description: "this is a portfolio website for nico iselin.",
+  favicon: "/icon.ico"
 };
 
 function RootLayout() {
