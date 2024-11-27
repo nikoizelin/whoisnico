@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +15,13 @@ const Footer = () => {
         {/* Spalte 1 */}
         <div>
           {/* Logo */}
-          <img alt="" src="/images/logo_whoisnico_white.svg" className="h-auto w-24 mb-4" />
+          <Image
+            src="/images/logo_whoisnico_white.svg"
+            width={96}
+            height={96}
+            className="h-auto w-24 mb-4"
+            alt="logo nico"
+          />
           {/* Beschreibung */}
           <p className="text-sm mb-4">
             connect with me through my social media channels or by sending me a project inquiry via e-mail.

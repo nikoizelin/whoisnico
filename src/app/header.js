@@ -1,6 +1,6 @@
-'use client'
-
+import React from "react";
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { PopoverGroup } from '@headlessui/react'
 import { ChevronUpIcon, ArrowLongRightIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid'
 
@@ -48,10 +48,12 @@ function Header() {
         <div className="flex md:flex-1 lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">nico.</span>
-            <img
-              alt=""
+            <Image
               src="/images/logo_whoisnico_white.svg"
+              width={96}
+              height={96}
               className="h-auto w-24"
+              alt="logo nico"
             />
           </a>
         </div>
@@ -89,10 +91,12 @@ function Header() {
         style={{ width: "100%" }}
       >
         <nav className="flex flex-col space-y-6 text-white">
-          <img
-            alt=""
+          <Image
             src="/images/logo_whoisnico_white.svg"
+            width={96}
+            height={96}
             className="h-auto w-24"
+            alt="logo nico"
           />
           <a href="#projects" onClick={() => setMenuOpen(false)}>projekte</a>
           <a href="#skills" onClick={() => setMenuOpen(false)}>skills</a>
