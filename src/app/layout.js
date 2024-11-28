@@ -63,7 +63,7 @@ function RootLayout() {
                 </div>
               </section>
 
-              {/* Section 3: Skills */}
+              {/* Section 2: Skills */}
               <section id="skills" className="bg-black p-12 md:p-24">
                 <div>
                   <h2 className="text-3xl">skills</h2>
@@ -71,7 +71,7 @@ function RootLayout() {
                 </div>
               </section>
 
-              {/* Section 4: Career */}
+              {/* Section 3: Career */}
               <section id="career" className= "bg-[url('/images/typography1_white_opacity.png')] bg-fixed bg-cover bg-center bg-no-repeat bg-black items-center flex p-24">
                 <div>
                   <h2 className="text-3xl mb-6">career</h2>

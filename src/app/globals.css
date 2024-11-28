@@ -42,6 +42,13 @@ body {
   transform: translate(-50%, -50%); 
 }
 
+#projects,
+#skills,
+#career,
+#mystack {
+  scroll-margin-top: 5rem;
+}
+
 .whoami {
   font-family: Consolas, monospace;
 }

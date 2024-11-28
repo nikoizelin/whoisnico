@@ -106,7 +106,7 @@ function Header() {
         </nav>
       </div>
       <div
-      className="cursor"
+      className="max-lg:hidden cursor"
       style={{
         top: `${position.y}px`,
         left: `${position.x}px`,
