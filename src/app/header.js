@@ -60,7 +60,7 @@ function Header() {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex lg:gap-x-12">
-          <a href="#projects">projekte</a>
+          <a href="#projects">projects</a>
           <a href="#skills">skills</a>
           <a href="#career">career</a>
           <a href="#mystack">my stack</a>

@@ -12,7 +12,7 @@ import Footer from "./footer.js";
 
 const metadata = {
   title: "nico iselin",
-  description: "this is a portfolio website for nico iselin.",
+  description: "this is a portfolio website of nico iselin.",
   favicon: "/icon.ico"
 };
 
