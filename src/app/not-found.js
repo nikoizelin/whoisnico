@@ -3,9 +3,9 @@ import Link from 'next/link'
 function NotFound() {
   return (
     <div>
-      <h2>Not Found</h2>
-      <p>Could not find requested resource</p>
-      <Link href="/">Return Home</Link>
+      <h2>not Found</h2>
+      <p>could not find requested resource</p>
+      <Link href="/">return to site</Link>
     </div>
   )
 }

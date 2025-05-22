@@ -1,10 +1,24 @@
-import React from "react";
+import {React, useState} from "react";
 import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import EasterEgg from "./easteregg.js";
 
 const Footer = () => {
+  const [isEasterEggPopupOpen, setIsEasterPopupOpen] = useState(false);
+  const [alreadyFound, setAlreadyFound] = useState(false);
+
+  const handleOpenEasterEgg = () => {
+    if(!alreadyFound) {
+    setIsEasterPopupOpen(true);
+    }
+  };
+
+  const handleCloseEasterPopup = ()  => {
+    setIsEasterPopupOpen(false);
+    setAlreadyFound(true);
+  };
   return (
     <footer className="bg-[url('/images/typography1_white_opacity.png')] bg-fixed bg-cover bg-center bg-no-repeat bg-black text-white px-12 pt-12 md:px-24 md:pt-24 pb-6">
       {/* Trennlinie */}
@@ -66,8 +80,9 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center mt-8 text-xs">
-        © {new Date().getFullYear()} whoisnico. ❤️ all rights reserved.
+        © {new Date().getFullYear()} whoisnico. <span onClick={handleOpenEasterEgg} className="cursor-pointer hover:scale-210 transition-transform">❤️</span> all rights reserved.
       </div>
+      <EasterEgg isOpen={isEasterEggPopupOpen} onClose={handleCloseEasterPopup}></EasterEgg>
     </footer>
   );
 };
