@@ -130,6 +130,31 @@ function ProjectSwiper() {
                 </div>
             </div>
             </SwiperSlide>
+            {/* dragonstreak */}
+            <SwiperSlide>
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+                <Image
+                    src="/images/dragon_streaks.jpg"
+                    width={1920}
+                    height={1080}
+                    className="w-full h-auto"
+                    alt="bioorangen"
+                />
+                <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2 text-black">in development: dragonstreak</div>
+                <p className="text-gray-800 text-base">
+                    dragonstreak is an ios application that helps you get rid of bad habits by collecting streaks.
+                    the fun part is, that you can grow your very own dragon along your journey by feeding it 
+                    with these streaks. so the better you get at not doing any bad habits the stronger your dragon gets.
+                </p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#ios</span>
+                <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#xcode</span>
+                <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#swift</span>
+                </div>
+            </div>
+            </SwiperSlide>
             {/* alexa skill */}
             <SwiperSlide>
             <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
