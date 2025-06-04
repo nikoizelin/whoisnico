@@ -105,20 +105,20 @@ function ProjectSwiper() {
                 </div>
             </div>
             </SwiperSlide>
-            {/* devtoolzquiz */}
+            {/* devtoolzgame */}
             <SwiperSlide>
             <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
                 <Image
-                    src="/images/thedevtoolzquiz_logo.png"
+                    src="/images/thedevtoolzgame_logo.png"
                     width={1920}
                     height={1080}
                     className="w-full h-auto"
-                    alt="thedevtoolzquiz"
+                    alt="thedevtoolzgame"
                 />
                 <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2 text-black">coming soon: thedevtoolzquiz</div>
+                <div className="font-bold text-xl mb-2 text-black">coming soon: thedevtoolzgame</div>
                 <p className="text-gray-800 text-base">
-                    because of my passion for trivia and creating quizzes for family and friends i will launch my own quiz game.
+                    because of my passion for trivia and creating quizzes for family and friends i will launch my own game.
                     the game will be about web development and some questions can only be solved by using the devtools. 
                     also i&apos;m planning to use as many api&apos;s as possible to make the game more interactive.
                 </p>
