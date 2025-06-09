@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function ProjectSwiper() { 
 
@@ -40,13 +42,14 @@ function ProjectSwiper() {
                 />
                 <div className="px-6 py-4 swiper-no-swiping">
                 <div className="font-bold text-xl text-black mb-2">bernhard westphal</div>
-                <p className="text-gray-800 text-base">
+                <p className="text-gray-800 text-base mb-2">
                     in this project my client of bernhard westphal consulting wanted a website to present his services and work.
                     working with the wordpress-cms i created a custom theme with html, 
                     jquery and implemented the design with css. which <b>marc iselin</b> created on figma.
                 </p>
+                <a href="https://bernhardwestphal.ch/" target="_blank" className="text-blue-900 hover:text-blue-700">to the website <FontAwesomeIcon icon={faArrowRight} /></a>
                 </div>
-                <div className="px-6 pt-6 pb-2">
+                <div className="px-6 pt-2 pb-2">
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#jquery</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#consulting</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#wp-cms</span>
@@ -65,14 +68,15 @@ function ProjectSwiper() {
                 />
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-black">bioorangen</div>
-                <p className="text-gray-800 text-base">
+                <p className="text-gray-800 text-base mb-2">
                     for many years my mom has been selling bio-oranges from sicily. 
                     she managed the orders manually via whatsapp and it took a long time to
                     process them. so i created a tool for her to manage the orders and the customers could place the orders 
                     directly on the website.
                 </p>
+                <a href="https://bioorangen.ch/" target="_blank" className="text-blue-900 hover:text-blue-700">to the website <FontAwesomeIcon icon={faArrowRight} /></a>
                 </div>
-                <div className="px-6 pt-4 pb-2">
+                <div className="px-6 pt-2 pb-2">
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#orangen</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#react</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#firebase</span>
@@ -91,14 +95,15 @@ function ProjectSwiper() {
                 />
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-black">ttceschenbach</div>
-                <p className="text-gray-800 text-base">
+                <p className="text-gray-800 text-base mb-2">
                     as a part of the board of the ttceschenbach i created a new website for the club, which i directly
                     built on the club management software <b>clubdesk</b>. working with multiple versions of the design 
                     i implemented the website directly on the software.  
                     
                 </p>
+                <a href="https://ttceschenbach.ch/" target="_blank" className="text-blue-900 hover:text-blue-700">to the website <FontAwesomeIcon icon={faArrowRight} /></a>
                 </div>
-                <div className="px-6 pt-4 pb-2">
+                <div className="px-6 pt-2 pb-2">
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#tischtennis</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#clubdesk</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#aos</span>
@@ -117,13 +122,13 @@ function ProjectSwiper() {
                 />
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-black">coming soon: thedevtoolzgame</div>
-                <p className="text-gray-800 text-base">
+                <p className="text-gray-800 text-base mb-2">
                     because of my passion for trivia and creating quizzes for family and friends i will launch my own game.
                     the game will be about web development and some questions can only be solved by using the devtools. 
                     also i&apos;m planning to use as many api&apos;s as possible to make the game more interactive.
                 </p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
+                <div className="px-6 pt-2 pb-2">
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#react</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#next.js</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#game</span>
@@ -142,13 +147,13 @@ function ProjectSwiper() {
                 />
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-black">in development: dragonstreak</div>
-                <p className="text-gray-800 text-base">
+                <p className="text-gray-800 text-base mb-2">
                     dragonstreak is an ios application that helps you get rid of bad habits by collecting streaks.
                     the fun part is, that you can grow your very own dragon along your journey by feeding it 
                     with these streaks. so the better you get at not doing any bad habits the stronger your dragon gets.
                 </p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
+                <div className="px-6 pt-2 pb-2">
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#ios</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#xcode</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#swift</span>
@@ -167,14 +172,14 @@ function ProjectSwiper() {
                 />
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-black">to-do-list: alexa skill</div>
-                <p className="text-gray-800 text-base">
+                <p className="text-gray-800 text-base mb-2">
                     as captain of a team of four colleagues we had to develop a new amazon alexa skill in 3 weeks 
                     at the <b>ims rapperswil</b>. introduced to the amazon apl and the alexa sdk 
                     we created a to-do-list skill for alexa using multiple api&apos;s, which we were awarded by the ims. 
 
                 </p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
+                <div className="px-6 pt-2 pb-2">
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#mapboxapi</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#openweather</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#js</span>
@@ -193,13 +198,13 @@ function ProjectSwiper() {
                 />
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-black">bootsverwaltung</div>
-                <p className="text-gray-800 text-base">
+                <p className="text-gray-800 text-base mb-2">
                     for the further education in java i developed a boat management app. 
                     i had to firstly design all the scenes and then implement those in the javafx project.
                     no database is used so all the data is stored and retrieved in json and xml files.  
                 </p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
+                <div className="px-6 pt-2 pb-2">
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#javafx</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#json/xml</span>
                 <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#scenebuilder</span>
