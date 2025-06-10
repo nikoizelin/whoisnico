@@ -135,6 +135,31 @@ function ProjectSwiper() {
                 </div>
             </div>
             </SwiperSlide>
+            {/* jass guide */}
+            <SwiperSlide>
+            <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
+                <Image
+                    src="/images/jass_guide_logo.png"
+                    width={1920}
+                    height={1080}
+                    className="w-full h-auto"
+                    alt="jassguide"
+                />
+                <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2 text-black">coming soon: jass guide</div>
+                <p className="text-gray-800 text-base mb-2">
+                    with the &apos;jass guide&apos; i want to create a place where you can learn 
+                    the various forms you can play with regular &apos;jasskarten&apos;. 
+                    the project will be programmed with vue.js to make the learning as interactive as possible
+                </p>
+                </div>
+                <div className="px-6 pt-2 pb-2">
+                <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#vue.js</span>
+                <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#nuxt.js</span>
+                <span className="inline-block bg-black rounded-full px-2 py-1 text-sm text-white mr-2 mb-2">#learn</span>
+                </div>
+            </div>
+            </SwiperSlide>
             {/* dragonstreak */}
             <SwiperSlide>
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
@@ -143,7 +168,7 @@ function ProjectSwiper() {
                     width={1920}
                     height={1080}
                     className="w-full h-auto"
-                    alt="bioorangen"
+                    alt="dragonstreak"
                 />
                 <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2 text-black">in development: dragonstreak</div>
